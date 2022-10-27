@@ -1,0 +1,77 @@
+nav{
+    display: flex;
+    margin-block-start: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    background-color: rgb(52, 52, 52);
+    justify-content: right;
+}
+
+nav h1{
+    margin-right: 900px;
+}
+
+nav ul{
+    display: flex;
+    padding:0;
+    margin-right: 50px;
+}
+
+nav li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+a{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: rgb(209, 208, 208);
+}
+
+#photo{
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 233px;
+    border-radius: 50%;
+    border: 2px solid #483d8b;
+    background-color: white;
+}
+
+#profile{
+    background-color: rgba(186, 218, 204, 0.482);
+    min-height: 233px;
+    padding: 20px 0;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 0px;
+}
+
+#photo_fond_figure{
+    background-color: rgb(52, 52, 52);
+    min-height: 233px;  
+    padding: 20px 0;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -16px;
+}
+
+#photo_fond{
+    display: block;
+    margin: auto;
+    width: 1533px;
+    height: 500px;
+}
+
+#legende_photo_bg{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 5px;
+    margin-top: -75px;
+}
