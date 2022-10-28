@@ -37,11 +37,10 @@ a:hover{
 #photo{
     display: block;
     margin: auto;
-    width: 180px;
-    height: 233px;
     border-radius: 50%;
-    border: 2px solid #483d8b;
+    
     background-color: white;
+    margin-top: 15px;
 }
 
 #profile{
@@ -63,7 +62,6 @@ a:hover{
 }
 
 #photo_fond{
-    display: block;
     margin: auto;
     width: 1533px;
     height: 500px;
@@ -74,4 +72,8 @@ a:hover{
     color: whitesmoke;
     padding-top: 5px;
     margin-top: -75px;
+}
+
+#projet1{
+    margin-left: 70px;
 }
