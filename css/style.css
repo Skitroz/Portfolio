@@ -3,8 +3,8 @@ nav {
     margin-block-start: -10px;
     margin-right: -10px;
     margin-left: -10px;
-    background-color: rgb(52, 52, 52);
     justify-content: right;
+    background-color: rgb(52, 52, 52);
 }
 
 nav h1 {
@@ -137,7 +137,7 @@ a:hover {
 
 main {
     background-color: rgba(186, 218, 204, 0.482);
-    margin-top: -100px;
+    margin-top: -150px;
     margin-bottom: -16px;
     margin-left: -10px;
     margin-right: -10px;
@@ -200,4 +200,10 @@ figcaption{
     font-family: 'Poiret One', cursive; 
 }
 
+#en_tete{
+    margin-top: 150px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Poiret One', cursive;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
