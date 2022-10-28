@@ -9,12 +9,14 @@ nav {
 
 nav h1 {
     margin-right: 900px;
+    font-family: 'Poiret One', cursive;
 }
 
 nav ul {
     display: flex;
     padding: 0;
     margin-right: 50px;
+    font-family: 'Poiret One', cursive;
 }
 
 nav li {
@@ -38,7 +40,7 @@ a:hover {
     display: block;
     margin: auto;
     border-radius: 50%;
-
+    border: 2px solid black;
     background-color: white;
     margin-top: 15px;
 }
@@ -116,8 +118,9 @@ main {
 }
 
 .footer-basic {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 25px;
     margin-left: -8px;
     margin-right: -35px;
     margin-bottom: -7px;
@@ -126,7 +129,7 @@ main {
 }
 
 .footer-basic ul {
-    margin-top: -135px;
+    margin-top: -150px;
     padding: 0;
     list-style: none;
     text-align: center;
@@ -161,3 +164,9 @@ main {
     margin-left: 600px;
     padding: 10px;
 }
+
+figcaption{
+    font-family: 'Poiret One', cursive; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
