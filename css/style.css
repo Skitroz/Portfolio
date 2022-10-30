@@ -8,8 +8,9 @@ nav {
 }
 
 nav h1 {
-    margin-right: 900px;
+    margin-right: 368px;
     font-family: 'Poiret One', cursive;
+    color: whitesmoke;
 }
 
 nav ul {
@@ -22,10 +23,6 @@ nav ul {
 nav li {
     list-style-type: none;
     margin: 10px;
-}
-
-h1 {
-    color: whitesmoke;
 }
 
 a {
@@ -57,7 +54,6 @@ a:hover {
 
 #photo_fond_figure {
     background-color: rgb(52, 52, 52);
-    min-height: 600px;
     padding: 20px 0;
     margin-right: -10px;
     margin-left: -10px;
@@ -65,9 +61,8 @@ a:hover {
 }
 
 #photo_fond {
-    margin: auto;
-    width: 1540px;
-    height: 560px;
+    max-width: 100%;
+    height: auto;
 }
 
 #legende_photo_bg {
@@ -76,63 +71,16 @@ a:hover {
     margin-top: 20px;
 }
 
-#projet1 {
-    margin-left: 25px;
-    padding-top: 40px;
+.fgc{
+    text-align: center;
+    justify-content: 
+    font-size: small;
 }
 
-#lettrem {
-    margin-top: 50px;
-}
-
-#projet2 {
-    margin-left: 165px;
-    padding-top: 55px;
-}
-
-#lanta {
-    padding-top: 50px;
-    margin-left: 100px;
-}
-
-#projet3 {
-    padding-top: 22px;
-    margin-left: 170px;
-}
-
-#Troc {
-    margin-left: 125px;
-}
-
-#mockup{
-    margin-left: 50px;
-}
-
-#projet4{
-    margin-left: 115px;
-    padding-top: 40px;
-    padding-bottom: 25px;
-}
-
-#iphone14{
-    margin-left: 30px;
-}
-
-#projet5{
-    margin-left: 100px;
-    padding-top: 40px;
-}
-
-#Projet_ligne_1 {
+#Projet {
     display: flex;
-    margin: 100px;
-    margin-bottom: 0;
-}
-
-#Projet_ligne_2{
-    display: flex;
-    margin: 100px;
-    margin-bottom: 0;
+    justify-content: space-between;
+    margin: auto;
 }
 
 main {
@@ -207,3 +155,14 @@ figcaption{
     font-family: 'Poiret One', cursive;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@media only screen and (max-width: 600px) {
+
+#Projet{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+    
+    }
