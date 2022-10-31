@@ -71,16 +71,47 @@ a:hover {
     margin-top: 20px;
 }
 
-.fgc{
-    text-align: center;
-    justify-content: 
-    font-size: small;
-}
-
 #Projet {
     display: flex;
-    justify-content: space-between;
+    margin: 0 100px;
+}
+
+#m {
+    margin-left: 25px;
+}
+
+#nws {
+    margin-left: 130px;
+}
+
+#aff {
+    margin-right: -125px;
+}
+
+#photoshop {
+    margin-left: 28px;
+}
+
+#lanta {
+    margin-left: 78px;
+}
+
+#troc {
+    margin-left: 58px;
+}
+
+#Projet2 {
+    display: flex;
     margin: auto;
+    margin-bottom: 10px;
+}
+
+#lettre {
+    margin-left: 180px;
+}
+
+#iphone {
+    margin-left: 170px;
 }
 
 main {
@@ -136,33 +167,67 @@ main {
 .reseau {
     display: block;
     margin-left: 600px;
-    padding: 10px;  
+    padding: 10px;
 }
 
-.rs{
+.rs {
     font-size: 100%;
     text-decoration: none;
 }
 
-figcaption{
-    font-family: 'Poiret One', cursive; 
+figcaption {
+    font-family: 'Poiret One', cursive;
 }
 
-#en_tete{
+#en_tete {
     margin-top: 150px;
     text-align: center;
     background-color: black;
     font-family: 'Poiret One', cursive;
 }
+
+#photoshop {
+    margin-right: 70px
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 @media only screen and (max-width: 600px) {
 
-#Projet{
-    margin: auto;
-    display: block;
-    text-align: center;
-    width: 100%;
-}
-    
+    #Projet {
+        margin: auto;
+        display: block;
+        width: 100%;
     }
+
+    #m{
+        text-align: center;
+    }
+
+    #photoshop{
+        margin-left: 68px;
+    }
+
+    #nws{
+        margin-left: 140px;
+    }
+
+    #lanta{
+        margin-right: 150px;
+    }
+
+    #aff{
+        margin-left: 80px;
+    }
+
+    #Projet2 {
+        margin: auto;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+        justify-content: space-between;
+    }
+
+
+}
