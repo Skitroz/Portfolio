@@ -201,27 +201,27 @@ figcaption {
     }
 
     #m{
-        margin-left: 130px;
+        margin-left: 125px;
     }
 
     #photoshop{
-        margin-left: 0px;
+        margin-left: -5px;
     }
 
     #nws{
-        margin-right: 35px;
+        margin-right: 47px;
     }
 
     #lanta{
-        margin-left: 5px;
+        margin-left: -5px;
     }
 
     #aff{
-        margin-left: 65px;
+        margin-left: 60px;
     }
 
     #troc{
-        margin-left: 90px;
+        margin-left: 85px;
     }
 
     #lettre{
@@ -242,14 +242,25 @@ figcaption {
     }
 
     nav h1{
-        margin-right: 65px;
+        margin-right: 25px;
         font-size: 13px;
         margin-top: 23px;
     }
 
     nav ul{
         font-size: 13px;
-        margin-right: -0px;
+        margin-right: 10px;
     }
 
+    .reseau{
+        margin-left: 15px;
+    }
+
+    .list-inline, .copyright{
+        margin-right: 15px;
+    }
+
+    #photo_fond_figure, #profile, nav, main, .footer-basic{
+        margin-right: -8px;
+    }
 }
