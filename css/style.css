@@ -242,7 +242,7 @@ figcaption {
     }
 
     nav h1{
-        margin-right: 25px;
+        margin-right: 20px;
         font-size: 13px;
         margin-top: 23px;
     }
@@ -262,5 +262,9 @@ figcaption {
 
     #photo_fond_figure, #profile, nav, main, .footer-basic{
         margin-right: -8px;
+    }
+
+    .footer-basic{
+        margin-bottom: -8px;
     }
 }
