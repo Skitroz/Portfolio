@@ -200,35 +200,35 @@ figcaption {
         width: 100%;
     }
 
-    #m{
+    #m {
         margin-left: 125px;
     }
 
-    #photoshop{
+    #photoshop {
         margin-left: -5px;
     }
 
-    #nws{
+    #nws {
         margin-right: 47px;
     }
 
-    #lanta{
+    #lanta {
         margin-left: -5px;
     }
 
-    #aff{
+    #aff {
         margin-left: 60px;
     }
 
-    #troc{
+    #troc {
         margin-left: 85px;
     }
 
-    #lettre{
+    #lettre {
         margin: auto;
     }
 
-    #iphone{
+    #iphone {
         margin: auto;
     }
 
@@ -241,30 +241,35 @@ figcaption {
         justify-content: space-between;
     }
 
-    nav h1{
+    nav h1 {
         margin-right: 20px;
         font-size: 13px;
         margin-top: 23px;
     }
 
-    nav ul{
+    nav ul {
         font-size: 13px;
         margin-right: 10px;
     }
 
-    .reseau{
+    .reseau {
         margin-left: 15px;
     }
 
-    .list-inline, .copyright{
+    .list-inline,
+    .copyright {
         margin-right: 15px;
     }
 
-    #photo_fond_figure, #profile, nav, main, .footer-basic{
+    #photo_fond_figure,
+    #profile,
+    nav,
+    main,
+    .footer-basic {
         margin-right: -8px;
     }
 
-    .footer-basic{
+    .footer-basic {
         margin-bottom: -8px;
     }
 }
