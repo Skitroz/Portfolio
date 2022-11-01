@@ -201,23 +201,35 @@ figcaption {
     }
 
     #m{
-        text-align: center;
+        margin-left: 130px;
     }
 
     #photoshop{
-        margin-left: 68px;
+        margin-left: 0px;
     }
 
     #nws{
-        margin-left: 140px;
+        margin-right: 35px;
     }
 
     #lanta{
-        margin-right: 150px;
+        margin-left: 5px;
     }
 
     #aff{
-        margin-left: 80px;
+        margin-left: 65px;
+    }
+
+    #troc{
+        margin-left: 90px;
+    }
+
+    #lettre{
+        margin: auto;
+    }
+
+    #iphone{
+        margin: auto;
     }
 
     #Projet2 {
@@ -229,5 +241,15 @@ figcaption {
         justify-content: space-between;
     }
 
+    nav h1{
+        margin-right: 65px;
+        font-size: 13px;
+        margin-top: 23px;
+    }
+
+    nav ul{
+        font-size: 13px;
+        margin-right: -0px;
+    }
 
 }
